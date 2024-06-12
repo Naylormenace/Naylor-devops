@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: linear-gradient(45deg,
+  #111111 5%,
+  #161616 8%,
+  #222222 45%,
+  #282828 70%,
+  #333333 90%
+  );
+}
+
+header {
+  background-image: url('Screenshot\ \(111\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button{
+  background-image: linear-gradient(45deg,#000019,#000019,#000019,#000019,#000019,#000019,
+  #5588AA,#27ae60,aqua,
+  lightcyan,#0e8ceb,#0e8ceb,#0e8ceb,#0e8ceb,#0e8ceb);
+  background-position: left;
+  background-size: 400%;
+  transition: background-position 1s;
+  color:white;
+  cursor: pointer;
+  border-radius: 13%;
+  font-size: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  overflow: hidden;
+}
+button:hover{
+  color: white;
+  background-position: right;
+  cursor: pointer;
+  letter-spacing: 0.2em;
+}
+nav {
+  background-image: url(Screenshot\ \(111\).png);
+  background-position: bottom;
+  background-color: #00163d;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.project-tile {
+
+}
+
+@media (max-width: 768px) {
+  .navbuttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .buttons {
+      width: 100%;
+      margin: 10px 0;
+  }
+}
+
+footer {
+  background-image: url(Screenshot\ \(111\).png);
+  background-position: bottom;
+  background-color: #00163d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+
+}
